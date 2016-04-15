@@ -1,4 +1,4 @@
-A simple password manager using node persist. Clone directory and open in console; you can create and store passwords in persist folder.
+A simple password manager using node persist. Clone directory and open in terminal or PowerShell; you can create and store passwords in persist folder.
 Includes encryption and error handling. E.g.
 
 node app.js  get -h
