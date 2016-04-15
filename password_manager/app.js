@@ -102,7 +102,7 @@ function createAccount (account, masterPassword) {
 }
 
 function getAccount (accountName, masterPassword) {
-    var accounts = getAccounts(masterPassword);
+    var accounts = getAccounts(masterPassword)
     var matchedAccount;
 
     accounts.forEach(function (account) {
@@ -137,8 +137,12 @@ if (command === 'create') {
             console.log(fetchedAccount);
         }
     } catch (e) {
-        console.log('Unable to fetch account.')
+        console.log('Unable to fetch account.');
     }
 }
+
+
+
+
 
 
